@@ -2,9 +2,9 @@
 layout: post
 title: My Journey Learning OpenGL
 date: 2024-07-25
-subtitle:  Introduction to Parallel Computing
+subtitle:  draw a point
 author: https://yang-alice.github.io/
-categories: CUDA
+categories: OpenGL
 banner:
   #video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true
