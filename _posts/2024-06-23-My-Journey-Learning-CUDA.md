@@ -71,7 +71,7 @@ https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html
 这也是英伟达官方的CUDA编程教程，不过侧重点在实践方面，比如如何编程才能最大化利用GPU特性提升性能，建议基础打好之后再来看这个。
 
 CUDA C编程权威指南
-这么经典的书就不用我多说了，英文原版叫《Professional CUDA C Programming》，pdf地址在下面，如果打开比较慢的可以后台回复【cuda】获取pdf文件：
+这么经典的书就不用我多说了，英文原版叫《Professional CUDA C Programming》，pdf地址
 http://www.hds.bme.hu/~fhegedus/C++/Professional%20CUDA%20C%20Programming.pdf
 
 个人博客
