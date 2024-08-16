@@ -222,3 +222,5 @@ https://github.com/microsoft/DeepSpeed
 
 This is Microsoft's open-source engine for accelerating distributed deep learning training.
 https://godweiyang.com/2021/01/25/cuda-reading/
+
+https://developer.nvidia.com/blog/even-easier-introduction-cuda/
