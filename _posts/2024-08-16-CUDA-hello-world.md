@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with CUDA 
 subtitle:  Setting Up the Development Environment and Running a Hello World Program
 author: https://yang-alice.github.io/
-categories: leetcode
+categories: CUDA
 banner:
   #video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true
@@ -16,7 +16,7 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: leetcode
+tags: CUDA
 sidebar: []
 ---
 
