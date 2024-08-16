@@ -20,5 +20,5 @@ tags: AboutMe
 sidebar: []
 ---
 
-Software engineer with 3 years of experience developing complex C++ applications and 0.5 years as a
+Software engineer with 3 years of experience developing complex C++ applications and 1 year as a
 computer vision machine learning engineer. Skilled in object-oriented design, test-driven development, and Agile methodologies. Skilled in designing and implementing complex applications using C++, Python, PyTorch, OpenCV and various frameworks. Seeking a C++ software engineer position.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting Started with CUDA 
-subtitle:  Setting Up the Development Environment and Running a Hello World Program
+title: Getting Started with CUDA
+subtitle: Setting Up the Development Environment and Running a Hello World Program
 author: https://yang-alice.github.io/
 categories: CUDA
 banner:
@@ -9,7 +9,7 @@ banner:
   loop: true
   volume: 0.8
   start_at: 8.5
-  #image: /assets/images/leetcode/33/Figure_5.png
+  image: /assets/images/banners/river.PNG
   opacity: 0.618
   background: "#000"
   height: "100vh"
@@ -19,7 +19,6 @@ banner:
 tags: CUDA
 sidebar: []
 ---
-
 # Introduction
 
 CUDA (Compute Unified Device Architecture) is a parallel computing platform and application programming interface (API) model created by NVIDIA. It allows developers to use a CUDA-enabled graphics processing unit (GPU) for general purpose processing – an approach known as GPGPU (General-Purpose computing on Graphics Processing Units). In this blog post, we will guide you through the process of setting up the CUDA development environment and running a simple "Hello World" program.
