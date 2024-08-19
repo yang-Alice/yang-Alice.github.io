@@ -10,8 +10,6 @@ tags: [CUDA]
 CUDA (Compute Unified Device Architecture) is a parallel computing platform and application programming interface (API) model created by NVIDIA. It allows developers to use a CUDA-enabled graphics processing unit (GPU) for general purpose processing – an approach known as GPGPU (General-Purpose computing on Graphics Processing Units). In this blog post, we will guide you through the process of setting up the CUDA development environment and running a simple "Hello World" program.
 
 # Setting Up the CUDA Development Environment on Windows
-
-
 To set up the CUDA development environment on Windows, follow these steps:
 
 1. Install the CUDA Toolkit:
