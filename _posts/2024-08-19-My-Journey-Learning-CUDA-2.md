@@ -61,26 +61,8 @@ reference: https://docs.nvidia.com/cuda/
 3. Compile and run the program to verify that it works correctly.
 
 Here is an example of a simple CUDA program that prints "Hello World" to the console:
-
-```cpp
-#include "cuda_runtime.h"
-#include "device_launch_parameters.h"
-
-#include <stdio.h>
-
-cudaError_t addWithCuda(int *c, const int *a, const int *b, unsigned int size);
-
-__global__ void addKernel(int *c, const int *a, const int *b)
-{
-    int i = threadIdx.x;
-    c[i] = a[i] + b[i];
-}
-
-
-
-```
-
 {% raw %}
+```cpp
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
 
@@ -203,9 +185,12 @@ Error:
 }
 
 ```
+{% endraw %}
+
 
 result:
-```
+{% raw %}
+```cpp
 {1,2,3,4,5} + {10,20,30,40,50} = {11,22,33,44,55}
 
 D:\code\CUDA_Test\CudaRuntime\x64\Debug\CudaRuntime.exe (process 14228) exited with code 0.
@@ -213,8 +198,8 @@ To automatically close the console when debugging stops, enable Tools->Options->
 Press any key to close this window . . .
 
 ```
+{% endraw %}
 
 Conclusion:
 Congratulations! You have successfully set up the CUDA development environment and run a simple "Hello World" program. This is just the beginning of your journey with CUDA. As you continue to learn and explore CUDA, you will be able to leverage the power of GPUs for various computational tasks. Happy coding!
-```
-{% endraw %}
+
