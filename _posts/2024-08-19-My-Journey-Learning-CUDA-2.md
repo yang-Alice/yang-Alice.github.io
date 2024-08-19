@@ -62,7 +62,7 @@ reference: https://docs.nvidia.com/cuda/
 
 Here is an example of a simple CUDA program that prints "Hello World" to the console:
 
-<pre><code>
+```cpp
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
 
@@ -76,30 +76,35 @@ __global__ void addKernel(int *c, const int *a, const int *b)
     c[i] = a[i] + b[i];
 }
 
+
+
+```
+
+{% raw %}
+```cpp
 int main()
 {
-    const int arraySize = 5;  
-    const int a[arraySize] = \{ 1, 2, 3, 4, 5 \};  
-    const int b[arraySize] = \{ 10, 20, 30, 40, 50 \};  
-    int c[arraySize] = \{ 0 \};  
+    const int arraySize = 5;
+    const int a[arraySize] = { 1, 2, 3, 4, 5 };
+    const int b[arraySize] = { 10, 20, 30, 40, 50 };
+    int c[arraySize] = { 0 };
 
-    // Add vectors in parallel.  
-    cudaError_t cudaStatus = addWithCuda(c, a, b, arraySize);  
-    if (cudaStatus != cudaSuccess) {  
-        fprintf(stderr, "addWithCuda failed!");  
-        return 1;  
-    }  
+    // Add vectors in parallel.
+    cudaError_t cudaStatus = addWithCuda(c, a, b, arraySize);
+    if (cudaStatus != cudaSuccess) {
+        fprintf(stderr, "addWithCuda failed!");
+        return 1;
+    }
 
-    printf(\"{1,2,3,4,5} + \{10,20,30,40,50\} = \{%d,%d,%d,%d,%d\}\n\",  
-        c[0], c[1], c[2], c[3], c[4]);  
+    printf("{1,2,3,4,5} + {10,20,30,40,50} = {%d,%d,%d,%d,%d}\n",
+        c[0], c[1], c[2], c[3], c[4]);
 
-    cudaStatus = cudaDeviceReset();  
-    if (cudaStatus != cudaSuccess) {  
-        fprintf(stderr, "cudaDeviceReset failed!");  
-        return 1;  
-    }  
+    cudaStatus = cudaDeviceReset();
+    if (cudaStatus != cudaSuccess) {
+        fprintf(stderr, "cudaDeviceReset failed!");
+        return 1;
+    }
 
-    return 0;  
+    return 0;
 }
-
-</code></pre> 
+```
