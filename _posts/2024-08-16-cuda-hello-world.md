@@ -77,6 +77,7 @@ reference: https://docs.nvidia.com/cuda/
 2. Add a new CUDA source file to the project.
 3. Compile and run the program to verify that it works correctly.
 
+<!--
 Here is an example of a simple CUDA program that prints "Hello World" to the console:
 
 ```cpp
@@ -216,3 +217,4 @@ Press any key to close this window . . .
 
 Conclusion:
 Congratulations! You have successfully set up the CUDA development environment and run a simple "Hello World" program. This is just the beginning of your journey with CUDA. As you continue to learn and explore CUDA, you will be able to leverage the power of GPUs for various computational tasks. Happy coding!
+-->
