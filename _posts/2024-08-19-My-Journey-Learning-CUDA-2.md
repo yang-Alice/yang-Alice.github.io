@@ -187,10 +187,10 @@ Error:
 ``` -->
 
 result:
-```
+<!-- ```
 {1,2,3,4,5} + {10,20,30,40,50} = {11,22,33,44,55}
 
 D:\code\CUDA_Test\CudaRuntime\x64\Debug\CudaRuntime.exe (process 14228) exited with code 0.
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
-```
+``` -->
