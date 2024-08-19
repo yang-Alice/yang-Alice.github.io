@@ -62,7 +62,7 @@ reference: https://docs.nvidia.com/cuda/
 
 Here is an example of a simple CUDA program that prints "Hello World" to the console:
 
-```cpp
+<pre><code>
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
 
@@ -102,4 +102,4 @@ int main()
     return 0;
 }
 
-```
+</code></pre> 
